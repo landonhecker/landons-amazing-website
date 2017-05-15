@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landon's Website</title>  
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Hanalei|Orbitron');
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.homepage {
+    background:url("http://api.theweek.com/sites/default/files/styles/tw_image_9_4/public/SWAT.jpg?itok=yuGg6zpX&resize=1260x560") no-repeat center center fixed;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  height:100%;
+}
+.home-h1{
+color: #000066;
+margin:0;
+padding-top:10%;
+}
+.home-h3{
+    color: #000066;
+}
+.home-button{
+    border:3px solid #000066;
+    background:transparent;
+    font-family: 'Hanalei';
+    color:#000066;
+    font-size:25px;
+    font-weight:900;
+    margin:10px;
+}
+.home-button:hover{
+    background:red;
+    font-weight:900;
+}
+
+
+.page2 {
+    background:url("https://brickmaniatoys.files.wordpress.com/2014/03/ranger01.png") no-repeat center center fixed;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: left;
+  height:100%;
+} 
+
+.links{
+padding-top:20%;
+}  
+
+.game-link{
+    color:#ffa500;
+    text-decoration: none;
+}
+
+.page3 {
+    background:url("https://farm9.static.flickr.com/8745/16962568052_7af77d7150_b.jpg") no-repeat center center fixed;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  height:100%;
+} 
+
+.website-button{
+    border:3px solid blue;
+    background:transparent;
+    font-family: 'Hanalei';
+    color:blue;
+    font-size:25px;
+}
+.website-button:hover{
+    background:blue;
+}
+
+.youtube-button{
+    border:3px solid blue;
+    background:transparent;
+    font-family: 'Hanalei';
+    color:blue;
+    font-size:25px;
+}
+.youtube-button:hover{
+    background:blue;
+}
+
+iframe {
+    padding-top:20px;
+    display:none;
+}
+
+</style>
+<script>
+
+$(document).ready(function(){
+    $(".website-button").click(function(){
+        $("iframe").toggle();
+    });
+});
+
+
+</script>
+</head>  
+<body> 
+
+
+ <!--HOMEPAGE -->
+<div class="homepage">
+    <h1 class="home-h1">Landon's Law Enforcement Station!</h1>
+    <h3 class="home-h3">I like to play army and police games with my friends and cousins.</h3>
+    <a href="videos.html"><button type="submit" class="home-button">Click Here To Watch Videos!!!</button></a><br>
+    <a href="games.html"><button type="submit" class="home-button">Click Here To Play Games!!!</button></a>
+</div>
+ <!-- END HOMEPAGE -->
+
+ 
+
+
+</body>
+</html>
+

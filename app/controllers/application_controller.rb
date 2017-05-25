@@ -12,5 +12,14 @@ class ApplicationController < Sinatra::Base
   get '/' do 
     erb :website
   end
+  get '/website' do 
+    erb :website
+  end
+  get '/games' do 
+    erb :games
+  end
+  get '/videos' do 
+    erb :videos
+  end
 
 end

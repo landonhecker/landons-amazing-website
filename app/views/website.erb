@@ -123,8 +123,12 @@ $(document).ready(function(){
 <div class="homepage">
     <h1 class="home-h1">Landon's Law Enforcement Station!</h1>
     <h3 class="home-h3">I like to play army and police games with my friends and cousins.</h3>
-    <a href="videos.erb"><button type="submit" class="home-button">Click Here To Watch Videos!!!</button></a><br>
-    <a href="games.erb"><button type="submit" class="home-button">Click Here To Play Games!!!</button></a>
+<form action="/videos" method="GET">
+    <button type="submit" class="home-button">Click Here To Watch Videos!!!</button><br>
+</form>
+<form action="games" method="GET">
+    <button type="submit" class="home-button">Click Here To Play Games!!!</button>
+</form>
 </div>
  <!-- END HOMEPAGE -->
 

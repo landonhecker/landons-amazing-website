@@ -1,3 +1,8 @@
 # LRH webasite
 
-# shotgun -p 8080 -o 0.0.0.0
+git status
+git add .
+git commit -m "updates"
+git push
+git push heroku master
+

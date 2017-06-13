@@ -21,5 +21,7 @@ class ApplicationController < Sinatra::Base
   get '/videos' do 
     erb :videos
   end
-
+get '/about' do 
+    erb :about
+  end
 end

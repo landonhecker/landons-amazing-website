@@ -6,3 +6,4 @@ gem "bundler"
 gem "sinatra"
 # the shotgun gem starts the Rack server and connects our application to the internet!
 gem "shotgun"
+gem "twilio-ruby"

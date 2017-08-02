@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TXT UH NUMBUR</title>  
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<style>
+body, html {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.text-page {
+    background:url("https://cdnimg.in/wp-content/uploads/2015/06/car1.jpg?2bbdf3") center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:200%;
+}
+h1 {
+    margin:0;
+    color:white;
+}
+h3 {
+    color:white;
+}
+h5 {
+    color:white;
+}
+</style>
+</head>
+<body>
+
+<div class="text-page">
+<div class="text">
+    <h1>Tell a friend</h1>
+    <form action="/text" method="POST">
+        <h3>Enter A Phone Number: <input type="text" name="number"></h3><br>
+        <h3>Enter Message Here: <input type="textarea" name="message"></h3><br>
+        <input type="submit" value="Click Here to text a friend"><br>
+    </form>
+    
+</div>
+<form action="/website" method="GET">
+        <input type="submit" value="Back To Home Page? Click Here"><br>
+    </form>
+</div>
+
+</body>
+</html>
